@@ -1,0 +1,25 @@
+{
+  "name": "serverless-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@commercetools/api-request-builder": "^5.4.0",
+    "@commercetools/sdk-client": "^2.1.1",
+    "@commercetools/sdk-middleware-auth": "^6.0.3",
+    "@commercetools/sdk-middleware-http": "^6.0.3",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.8"
+  },
+  "devDependencies": {
+    "global-tunnel-ng": "^2.7.1",
+    "https-proxy-agent": "^4.0.0"
+  }
+}
