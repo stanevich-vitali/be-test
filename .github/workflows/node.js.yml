@@ -18,4 +18,8 @@ jobs:
 
       - name: create test folder
         run: mkdir /home/vitali/projects/mckc-dwrr/test/actions-runner/test_passed
+        
+      - name: copy file
+        run: cp src/bff/client.js /home/vitali/projects/mckc-dwrr/test/actions-runner/test_passed
+
 
